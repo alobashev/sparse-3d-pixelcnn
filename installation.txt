@@ -1,0 +1,8 @@
+conda create sparse-3d-pixelcnn
+conda activate sparse-3d-pixelcnn
+conda install pytorch-nightly -c pytorch
+conda install google-sparsehash -c bioconda
+conda install -c anaconda pillow
+git clone https://github.com/facebookresearch/SparseConvNet.git
+cd SparseConvNet/
+bash build.sh
